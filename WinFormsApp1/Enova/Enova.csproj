@@ -1,0 +1,17 @@
+﻿<Project Sdk="Soneta.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(SonetaTargetFramework)</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Soneta.Start" Version="2412.4.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="System.ValueTuple" Version="4.6.1" />
+  </ItemGroup>
+
+</Project>
